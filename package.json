@@ -1,0 +1,36 @@
+{
+  "name": "padagogy-reception",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "text:Layout": "vue serve ./src/components/Layout/text.vue",
+    "text:Menu": "vue serve ./src/components/Menu/text.vue",
+    "text:SiteTop": "vue serve ./src/components/SiteTop/text.vue",
+    "text:Icon": "vue serve ./src/components/Icon/text.vue",
+    "text:Popular": "vue serve ./src/components/Popular/text.vue",
+    "text:ArtList": "vue serve ./src/components/ArtList/text.vue",
+    "text:AppList": "vue serve ./src/components/AppList/text.vue"
+  },
+  "dependencies": {
+    "@toast-ui/vue-editor": "^3.1.5",
+    "axios": "^0.26.1",
+    "core-js": "^3.6.5",
+    "element-ui": "2.13.2",
+    "mock": "^0.1.1",
+    "mockjs": "^1.1.0",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.15",
+    "@vue/cli-plugin-router": "~4.5.15",
+    "@vue/cli-plugin-vuex": "~4.5.15",
+    "@vue/cli-service": "~4.5.15",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
